@@ -56,7 +56,7 @@
 //     await page.fill(locators.coordinatorSearchBox, '');
 //     for (let option of testData.coordinatorOptions) {
 //       await expect(page.locator(`text="${option}"`)).toBeVisible();
-//     }
+//  //   }
 //   });
 
 //   //Testcase 6
