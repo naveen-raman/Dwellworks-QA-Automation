@@ -1,0 +1,24 @@
+# testData/login.yaml
+ 
+loginTests:
+  validUser:
+    email: "nraman@dwellworks.com"
+    password: "Test@123"
+  invalidUser:
+    email: "{{ faker.internet.email }}"
+    password: "WrongPass"
+  unregisteredUser:
+    email: "{{ faker.internet.email }}"
+    password: "{{ faker.internet.password }}"
+  lockedUser:
+    email: "jtyamo4testing+rtm84622@gmail.com"
+    password: "OdinOdin5$"
+# signupTests:
+#   newUser:
+#     username: "{{ faker.internet.userName }}"
+#     email: "{{ faker.internet.email }}"
+#     password: "{{ faker.internet.password }}"
+#   existingUser:
+#     username: "existingUser"
+#     email: "existinguser@example.com"
+#     password: "ExistingUserPass"
